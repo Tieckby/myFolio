@@ -1,6 +1,6 @@
 # myfolio
 
-My Portfolio Flutter App project.
+This is my Portfolio Flutter App project.
 
 ## Getting Started
 
