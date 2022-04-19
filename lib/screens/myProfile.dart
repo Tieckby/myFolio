@@ -25,7 +25,7 @@ class MyProfile extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   padding: const EdgeInsets.only(left: 10, top: 1, bottom: 5),
-                  child: const Text("La meilleure d'apprendre, c'est de jouer !", style: TextStyle(fontSize: 16, color: Colors.black45)),
+                  child: const Text("La meilleure façon d'apprendre, c'est de jouer !", style: TextStyle(fontSize: 16, color: Colors.black45)),
                 ),
                 Container(
                   alignment: Alignment.topLeft,

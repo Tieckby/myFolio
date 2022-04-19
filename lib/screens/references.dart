@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:myfolio/shared/menu_drawer.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -9,7 +8,7 @@ class References extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Références"), centerTitle: true),
+      appBar: AppBar(title: const Text("Références"), centerTitle: true),
       drawer: const MenuDrawer(),
       body: Center(
           child: Column(
@@ -27,10 +26,10 @@ class References extends StatelessWidget {
                         padding: EdgeInsets.all(10),
                         child: CircleAvatar(
                           radius: 80,
-                          backgroundImage: AssetImage("assets/references/users.jpg"),
+                          backgroundImage: AssetImage("assets/references/fatim.png"),
                         ),
                       ),
-                      Text("Fatoumata Kaloga".toUpperCase(), style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      Text("Fatoumata Kaloga".toUpperCase(), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                       Container(
                           padding: const EdgeInsets.only(bottom: 10),
                           child: const Text("Développeuse Fullstack & Formateur", style: TextStyle(color: Colors.black45))
@@ -61,10 +60,10 @@ class References extends StatelessWidget {
                           padding: EdgeInsets.all(10),
                           child: CircleAvatar(
                             radius: 80,
-                            backgroundImage: AssetImage("assets/references/users.jpg"),
+                            backgroundImage: AssetImage("assets/references/fouss.jpg"),
                           ),
                         ),
-                        Text("Fousseyni Dembélé".toUpperCase(), style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                        Text("Fousseyni Dembélé".toUpperCase(), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                         Container(
                             padding: const EdgeInsets.only(bottom: 10),
                             child: const Text("Développeuse Fullstack & Formateur", style: TextStyle(color: Colors.black45))
